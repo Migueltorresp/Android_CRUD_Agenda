@@ -47,16 +47,16 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         Button loginButton = findViewById(R.id.buttonLogin);
-        Button btnGoogle = findViewById(R.id.btnGoogle);
+//miguel btnGoogle = findViewById(R.id.btnGoogle);
         final EditText usernameInput = findViewById(R.id.usernameInput);
         final EditText passwordInput =  findViewById(R.id.passwordInput);
-
+/*
         btnGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 signIn();
             }
-        });
+        });*/
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -118,7 +118,7 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
-
+/*
    private void signIn(){
         Intent signIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signIntent, RC_SIGN_IN);
@@ -169,7 +169,7 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
-
+*/
 
 
 }
