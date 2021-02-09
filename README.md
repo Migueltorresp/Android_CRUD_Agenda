@@ -173,8 +173,8 @@ private void listarDatos() {
 <b>2. Diseño </b>
 <b>El diseño consta de tres partes que son:
 ### Registro
-Para el registro se agregó dos *EditText* para el correo y la constraseña con los que se podrá registrar un usuario dando como resultado lo siguiente:
-  ![ScreenShot](https://raw.github.com/Migueltorresp/Android_CRUD_Agenda/dev/)
+Para el registro se agregó dos *EditText* para el correo y la constraseña con los que se podrá registrar un usuario dando como resultado lo siguiente:<br/>
+ ![Screenshot](https://raw.github.com/Migueltorresp/Android_CRUD_Agenda/dev/images/registro.jpg)
 ### Login
 Para el login de igual manera se agreagaron dos *EditText*, además de un aceeso hacia la ventana de registro en el caso que no se encuentre registrado:
 ### Home
