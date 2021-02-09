@@ -176,6 +176,12 @@ private void listarDatos() {
 Para el registro se agregó dos *EditText* para el correo y la constraseña con los que se podrá registrar un usuario dando como resultado lo siguiente:<br/>
  ![Screenshot](https://raw.github.com/Migueltorresp/Android_CRUD_Agenda/dev/images/registro.jpg)
 ### Login
-Para el login de igual manera se agreagaron dos *EditText*, además de un aceeso hacia la ventana de registro en el caso que no se encuentre registrado:
+Para el login de igual manera se agreagaron dos *EditText*, además de un aceeso hacia la ventana de registro en el caso que no se encuentre registrado:<br/>
+ ![Screenshot](https://raw.github.com/Migueltorresp/Android_CRUD_Agenda/dev/images/iniciar_sesion.jpg)
 ### Home
+ Para el diseño del *Home* tendremos los botones tanto de salir como de añadir, actualizar y eliminar un registro ademas de poder ver los regsitros guardados en una lista<br/>  
+ ![Screenshot](https://raw.github.com/Migueltorresp/Android_CRUD_Agenda/dev/images/home.jpg)
+ ### Dentro de la Firebase
+Finalmente en *Realtime Database* se encuentran los registro creados.<br/> 
+ ![Screenshot](https://raw.github.com/Migueltorresp/Android_CRUD_Agenda/dev/images/registro2.jpg)
   
